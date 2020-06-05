@@ -1,0 +1,238 @@
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+    margin-right: 3%;
+}
+nav ul li a{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #202020;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-left: 10%;
+}
+h1{
+    font-size: 2.5rem;
+    color: #202020;
+}
+p{
+    font-size: 0.9rem;
+    color: #202020;
+    line-height: 25px;
+}
+div{
+    height: 100vh;
+}
+img:hover{
+    box-shadow: 0 0 4px 0.5px lightgray;
+}
+.box1{
+    background: url(../img/illustration1.gif) right/contain no-repeat;
+}
+div h1{
+    width: 40%;
+    padding-top: 40vh;
+}
+div p{
+    width: 40%;
+    margin-bottom: 2vh;
+}
+div ul{
+    list-style: none;
+    padding-left: 0;
+}
+div ul li{
+    display: inline;
+}
+div ul li a{
+    font-size: 0.7rem;
+    text-decoration: none;
+    margin-right: 1%;
+}
+div ul li:first-of-type a{
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+div ul li:first-of-type a:hover{
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0.5px lightgray;
+}
+div ul li:nth-of-type(2) a{
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0.5px lightgray;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+div ul li:nth-of-type(2) a:hover{
+    color: #fff;
+    background-color: #000;
+    box-shadow: none;
+}
+.box2{
+    background: url(../img/illustration2.png) left/contain no-repeat;
+    background-size: 50vh;
+}
+.box2 h1, .box2 p{
+    padding-left: 50%;
+}
+.box3{
+    background: url(../img/illustration3.png) right/contain no-repeat;
+    background-size: 50vh;
+    margin-right: 10%;
+}
+#illustration{
+    text-align: center;
+    padding-right: 10%;
+}
+#illustration p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 10vh;
+}
+.small{
+    width: 33%;
+}
+article{
+    text-align: center;
+}
+article h1{
+    padding-top: 15vh;
+}
+article p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+.medium{
+    width: 40%;
+    margin: 5vh 0 5vh 5%;
+}
+#buy{
+    text-align: center;
+    padding: 5vh 0 0 0;
+}
+#buy p{
+    width: 55%;
+    margin: auto;
+}
+#buy ul{
+    background: #F5FBFE;
+    color: #202020;
+    list-style: none;
+    width: 20%;
+    margin: 5vh auto;
+    padding: 3%;
+}
+#buy ul li{
+    font-size: 0.75rem;
+    margin-top: 5px;
+}
+#buy ul li:nth-of-type(1){
+    font-size: 1rem;
+    padding: 3vh 0;
+}
+#buy ul li:nth-of-type(2){
+    font-size: 2.5rem;
+    padding: 3vh 0;
+}
+#buy ul li:nth-of-type(3){
+    color: gray;
+    margin: 3vh 0;
+}
+#buy ul li:last-of-type{
+    margin-top: 3vh;
+}
+#buy ul li a{
+    text-decoration: none;
+    color: #fff;
+    background: #24bff2;
+    padding: 1.5vh 20%;
+    border-radius: 3px;
+}
+#buy ul li a:hover{
+    color: #202020;
+}
+footer{
+    padding-top: 10vh;
+    text-align: center;
+}
+footer h1{
+    padding-bottom: 3vh;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 1.5vh 0;
+}
+footer ul li{
+    color: lightgray;
+    font-size: 0.75rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 0.9rem;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer ol{
+    list-style: none;
+}
+footer ol li{
+    display: inline;
+}
+footer ol li a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 0.9rem;
+}
+footer ol li:nth-of-type(1) a:hover{
+    color: #3b5998;
+}
+footer ol li:nth-of-type(2) a:hover{
+    color: #fcaf45;
+}
+footer ol li:nth-of-type(3) a:hover{
+    color: #55acee;
+}
+footer ol li:nth-of-type(4) a:hover{
+    color: #c4302b;
+}
+footer ol li:nth-of-type(1) a span{
+    color: #3b5998;
+    font-size: 2rem;
+}
+footer ol li:nth-of-type(2) a span{
+    color: #fcaf45;
+    font-size: 2rem;
+}
+footer ol li:nth-of-type(3) a span{
+    color: #55acee;
+    font-size: 2rem;
+}
+footer ol li:nth-of-type(4) a span{
+    color: #c4302b;
+    font-size: 2rem;
+}
